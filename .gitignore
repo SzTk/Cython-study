@@ -2,5 +2,4 @@
 /.project
 /.pydevproject
 *.so
-*.c
-*.cpp
+*.DS_Store
