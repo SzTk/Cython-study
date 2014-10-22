@@ -50,16 +50,7 @@ double func_integralb(double Mmax, double Mmin, double bmax, double bmin, double
 	return temp;
 }
 
-
-
-
-
-
-
-
-
-
-int main(){
+int calc(){
 
 	double Mmax,Mmin,bmax,bmin,d,alpha,beta,gamma,output,aaa;
 	int nM,nb,step_num;
@@ -124,6 +115,9 @@ int main(){
 	return 0;
 }
 
+int main(){
+	return calc();
+}
 
 
 

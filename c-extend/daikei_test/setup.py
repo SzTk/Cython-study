@@ -10,7 +10,8 @@ module = Extension('daikei_test',
                    sources=['daikei_testmodule.c',
                             'src/main.c',
                             'src/func_test.c',
-                            'src/minimum.c'])
+                            'src/minimum.c'],
+                   include_dirs=['src'])
 
 setup(name='Daikei Test',
       version='0.0',
