@@ -1,4 +1,4 @@
-from distutils.core import setup, Extension
+from setuptools import setup, Extension
 
 __auhtor__ = 'Takayuki Suzuki'
 __version__ = '0.0'
